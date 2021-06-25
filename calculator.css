@@ -185,3 +185,22 @@ html{
     color: var(--btn-color);
     box-shadow: 0 3px var(--equal-shadow);
  }	
+#CounterVisitor{
+   background-color: var(--main-bg);
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+ }
+ .counter{
+   padding: 6px;
+   margin: 3px 3px 3px 3px;
+   background-color: var(--equal-btn);
+   font-size: large;
+   color: var(--text-color);
+   border-radius: 4px;
+ }
+ .view{
+  /* display:inline-block; */
+  text-align: center;
+  color: var(--text-color);
+ }
