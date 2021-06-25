@@ -34,3 +34,27 @@ const changeTheme = (themeNumber) => {
 }
 
 changeTheme(theme);
+// js for visitor count
+var n = localStorage.getItem('on_load_counter');
+
+if (n === null) {
+  n = 0;
+}
+n++;
+
+localStorage.setItem("on_load_counter", n);
+  nums = n.toString().split('').map(Number)
+ console.log(nums);
+  document.getElementById('CounterVisitor').innerHTML = '';
+  var i;
+  for (i=6;i>nums.length;i--) {
+     var cla= "counter counter-item-"+i;
+    
+    var claa="<div class="+cla+">" +  0+ '</div>';
+     if(i>nums.length){
+    document.getElementById('CounterVisitor').innerHTML += claa}
+  }
+  for (i=0;i<nums.length;i++){
+    var cla= "counter counter-item-"+(i+1);
+    var claa="<div class="+cla+">" +  nums[i]+ '</div>';
+  document.getElementById('CounterVisitor').innerHTML += claa}
