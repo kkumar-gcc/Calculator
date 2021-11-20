@@ -1,5 +1,5 @@
 # Frontend Mentor - Calculator app
-
+[Preview of website](https://kkumar-gcc.github.io/Calculator/)
 ![Design preview for the Calculator app coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
